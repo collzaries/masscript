@@ -90,7 +90,7 @@ app.get('/pagecount', function (req, res) {
   }
 })
 
-app.get('/usuarios', () => {
+app.get('/usuarios', (req, res) => {
   res.send('Perfecto!')
 })
 // error handling
